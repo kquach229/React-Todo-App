@@ -3,8 +3,6 @@ import { List, ListItem, ListItemText, Modal, Button  } from "@material-ui/core"
 import db from "./firebase";
 import DeleteForever from '@material-ui/icons/DeleteForever';
 import EditIcon from '@material-ui/icons/Edit';
-import firebase from "firebase";
-
 
 function Todo(props) {
     const [open, setOpen] = useState(false);
